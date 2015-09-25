@@ -2,6 +2,14 @@
 
 This note is formatted as a [markdown](http://daringfireball.net/projects/markdown/basics) document.
 
+#### Prereq
+- npm (node package manager) is installed in the system 
+    - verify with npm -v (2.14.0 for example)
+- tsc (typescript) and tsd (typescript definition manager) are installed in the system
+    - verify with tsc -v and tsd --version (1.5.3 and 0.6.4 respectively for example)
+    - if not, install them with npm (npm install typescript -g, npm install tsd -g)
+- IntelliJ IDEA with Angular plugin installed
+
 #### Seeding
 
 - Create an Angular IntelliJ project
