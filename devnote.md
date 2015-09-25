@@ -11,3 +11,10 @@ This note is formatted as a [markdown](http://daringfireball.net/projects/markdo
  (like to track the libs; we can remove it later if needed)
 - npm install (at the project root) to fetch node and bower components
  (file count of 13,000 and 100 respectively, almost 80MB total size)
+- npm start at the project root as a test
+> angular-seed@0.0.0 start /Users/bjjeong/dev/github/monman
+>
+> http-server -a localhost -p 8000 -c-1
+- http://localhost:8000/app/index.html and http://localhost:8000 responds ok
+ 
+
