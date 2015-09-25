@@ -16,5 +16,6 @@ This note is formatted as a [markdown](http://daringfireball.net/projects/markdo
 >
 > http-server -a localhost -p 8000 -c-1
 - http://localhost:8000/app/index.html and http://localhost:8000 responds ok
+- as of 9/25/2015, angular stable version is at 1.4.6 which the seed project uses (1.5.0.beta available)
  
 
