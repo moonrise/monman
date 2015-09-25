@@ -31,6 +31,8 @@ This note is formatted as a [markdown](http://daringfireball.net/projects/markdo
 
 #### CSS
 
+- sign in page [bootstrap](http://getbootstrap.com/examples/signin/)
+    - signin.css added to /css
 - fixed header with sticky footer from [bootstrap](http://getbootstrap.com/examples/sticky-footer-navbar/#)
     - sticky-footer-navbar.css added to /css
 
