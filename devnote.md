@@ -29,3 +29,8 @@ This note is formatted as a [markdown](http://daringfireball.net/projects/markdo
 - bower install --save bootstrap (installs bootstrap3 with dependant jquery); boostrap 3.3.5 / jquery 2.1.4
  
 
+#### CSS
+
+- fixed header with sticky footer from [bootstrap](http://getbootstrap.com/examples/sticky-footer-navbar/#)
+    - sticky-footer-navbar.css added to /css
+
