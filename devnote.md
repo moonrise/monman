@@ -36,3 +36,7 @@ This note is formatted as a [markdown](http://daringfireball.net/projects/markdo
 - fixed header with sticky footer from [bootstrap](http://getbootstrap.com/examples/sticky-footer-navbar/#)
     - sticky-footer-navbar.css added to /css
 
+#### Angular UI Layout (v 1.0.5)
+- [angular-ui reference](https://github.com/angular-ui/ui-layout/blob/master/README.md)
+- if you use IE<=9, iOS<7 or Android<4 please include the requestAnimationFrame polyfill in your application.
+- version 1.x is only compatible with IE>=10. If you use IE<=9 you need to use version 0.x

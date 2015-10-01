@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!-- bootstrap3: the above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="MonManPoc">
+    <meta name="author" content="cisco-dvbu">
+    <link rel="icon" href="favicon.png">
+
+    <title>MonMan</title>
+
+    <!--<link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">-->
+    <!--<link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">-->
+    <!--<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">-->
+    <link rel="stylesheet" href="bower_components/angular-ui-layout/ui-layout.css">
+    <!--<link rel="stylesheet" href="css/sticky-footer-navbar.css">-->
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="app.css">
+
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <div ui-layout class="layout-mock">
+        <header class="north-back"></header>
+        <ui-layout options="{ flow : 'column' }">
+            <sidebar class="east-back"></sidebar>
+            <div class="center-back"></div>
+            <sidebar class="west-back"></sidebar>
+        </ui-layout>
+        <footer class="south-back"></footer>
+    </div>
+
+<!-- load JavaScripts at the end of the document so the pages load faster -->
+<!--<script src="bower_components/jquery/dist/jquery.js"></script>-->
+<!--<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>-->
+<!--<script src="bower_components/raf/index.js"></script>-->
+<script src="bower_components/angular/angular.js"></script>
+<!--<script src="bower_components/angular-route/angular-route.js"></script>-->
+<script src="bower_components/angular-ui-layout/ui-layout.js"></script>
+<script src="monman.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <title>UI.Layout : demo </title>
+
+
+    <!-- Le css -->
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/angular-ui/ui-layout/v0.0.2/ui-layout.css" />-->
+    <link rel="stylesheet" href="bower_components/angular-ui-layout/ui-layout.css">
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+
+</head>
+
+<body>
+
+
+<!-- Le content... -->
+<!--<div ui-layout class="layout-mock">-->
+    <!--<header class="north-back"></header>-->
+    <!--<ui-layout options="{ flow : 'column' }">-->
+        <!--<sidebar class="east-back"></sidebar>-->
+        <!--<div class="center-back"></div>-->
+        <!--<sidebar class="west-back"></sidebar>-->
+    <!--</ui-layout>-->
+    <!--<footer class="south-back"></footer>-->
+<!--</div>-->
+
+<!--<div ui-layout class="layout-mock">-->
+<!--<div ui-layout>-->
+<!--</div>-->
+
+<div ui-layout class="layout-mock">
+    <div ui-layout-container style="background-color: blue">
+        <div style="background-color: red">Hello1</div>
+    </div>
+    <!--<ui-splitbar></ui-splitbar>-->
+    <div ui-layout-container class="mud">
+        <!--<div class="mud2">south</div>-->
+    </div>
+</div>
+
+<!-- Le vendor... -->
+<!--<script src="http://angular-ui.github.io/ui-layout/assets/vendor/angular.min.js"></script>-->
+<script src="bower_components/angular/angular.js"></script>
+<!--<script src="https://cdn.rawgit.com/angular-ui/ui-layout/v0.0.2/ui-layout.js"></script>-->
+<script src="bower_components/raf/index.js"></script>
+<script src="bower_components/angular-ui-layout/ui-layout.js"></script>
+<script src="monman.js"></script>
+</body>
+
+</html>
