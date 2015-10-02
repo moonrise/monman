@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <title>UI.Layout : demo </title>
+
+
+    <!-- Le css -->
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/angular-ui/ui-layout/v0.0.2/ui-layout.css" />-->
+    <link rel="stylesheet" href="bower_components/angular-ui-layout/ui-layout.css">
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+
+    <style>
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        .ui-splitbar {
+            background-color: red;
+        }
+        .ui-layout-container {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+<div ui-layout="{flow:'column'}">
+    <div ui-layout-container max-size="50%">
+        One
+        <br/>
+        <button ng-click="updateDisplay()">Update Display</button>
+    </div>
+    <div ui-layout-container>Two</div>
+    <div ui-layout-container>
+        <!--Three-->
+        <div ui-layout="{ flow:'row', dividerSize:'12' }">
+            <div ui-layout-container>Three</div>
+            <div ui-layout-container>
+                <div ng-include="demo/testinclude.html"></div>
+            </div>
+        </div>
+    </div>
+    <div ui-layout-container>
+        Four
+    </div>
+</div>
+
+
+<!-- Le vendor... -->
+<!--<script src="http://angular-ui.github.io/ui-layout/assets/vendor/angular.min.js"></script>-->
+<script src="bower_components/angular/angular.js"></script>
+<!--<script src="https://cdn.rawgit.com/angular-ui/ui-layout/v0.0.2/ui-layout.js"></script>-->
+<script src="bower_components/raf/index.js"></script>
+<script src="bower_components/angular-ui-layout/ui-layout.js"></script>
+<script src="monman.js"></script>
+</body>
+
+</html>

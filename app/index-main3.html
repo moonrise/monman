@@ -31,11 +31,20 @@
 <!--<div ui-layout>-->
 <!--</div>-->
 
-<div ui-layout class="layout-mock">
-    <div ui-layout-container style="background-color: blue">
-        <div style="background-color: red">Hello1</div>
+<div ui-layout class="layout-mock" options="{flow:'column'}">
+    <div ui-layout-container>
+        <div>Hello1</div>
     </div>
     <!--<ui-splitbar></ui-splitbar>-->
+    <!--<div ui-layout-container class="mud">-->
+        <!--<div ui-layout option="{flow:column}">-->
+        <!--<div class="mud2">south</div>-->
+            <div ui-layout-container class="mud">
+            </div>
+            <div ui-layout-container class="mud">
+            </div>
+        <!--</div>-->
+    <!--</div>-->
     <div ui-layout-container class="mud">
         <!--<div class="mud2">south</div>-->
     </div>
