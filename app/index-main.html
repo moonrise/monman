@@ -38,6 +38,7 @@
             </button>
             <a class="navbar-brand" href="#">monmanpoc</a>
         </div>
+
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
@@ -62,20 +63,35 @@
 </nav>
 
 <!-- content -->
-<div class="container-fluid">
+<div class="container" style="background-color: yellowgreen; position:absolute; top:50px; bottom:50px; left:0px; right:0px">
+    <div class="visible-xs col-xs-12 col-xs-8 col-sm-4">
+        List View
+    </div>
+    <div class="visible-xs col-xs-12 col-xs-8 col-sm-4">
+        Detail View
+    </div>
+    <div class="visible-xs col-xs-12 col-xs-8 col-sm-4">
+        Property View
+    </div>
 
-    <div kendo-splitter k-panes="[null, null]">
+    <div class="visible-lg visible-md col-lg-12 col-md-11" kendo-splitter k-panes="[null, null, null]"
+         style="position:absolute; top:10px; bottom:10px; left:10px; right:10px">
         <div>
+            Left Panel
             <h4>expression: {{1+3}}</h4>
             <h4>greeting: {{greeting}}</h4>
             <h4>ng version: {{ngversion}}</h4>
             <h4 ng-if="count > 2">count is {{count}}</h4>
+            <watch></watch>
         </div>
         <div>
+            Center Panel
             <input kendo-numerictextbox ng-model="count" k-min="1" k-max="10" k-up-arrow-text="'Increment'" k-down-arrow-text="'Decrement'"/>
         </div>
+        <div>
+            Right Panel
+        </div>
     </div>
-
 </div>
 
 <!-- footer -->
